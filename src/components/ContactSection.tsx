@@ -28,8 +28,8 @@ export default function ContactSection() {
               </div>
               <p className="text-sm font-semibold mb-2">Call Us</p>
               <div className="flex flex-col gap-1">
-                <a href="tel:+355684379620" className="text-muted-foreground text-[10px] break-all hover:text-primary transition-colors">+355 68 437 9620</a>
                 <a href="tel:+355684248959" className="text-muted-foreground text-[10px] break-all hover:text-primary transition-colors">+355 68 424 8959</a>
+                <a href="tel:+355684379620" className="text-muted-foreground text-[10px] break-all hover:text-primary transition-colors">+355 68 437 9620</a>
               </div>
             </div>
             
@@ -53,7 +53,7 @@ export default function ContactSection() {
           <div className="text-center">
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-8">
               <a
-                href="https://wa.me/355684379620?text=Hello!%20I'd%20like%20some%20information."
+                href="https://wa.me/355684248959?text=Hello!%20I'd%20like%20some%20information."
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-3 px-8 py-4 rounded-xl bg-primary text-primary-foreground font-semibold hover:opacity-90 active:scale-[0.97] transition-all duration-200 shadow-lg shadow-primary/20"
@@ -61,7 +61,7 @@ export default function ContactSection() {
                 WhatsApp 1
               </a>
               <a
-                href="https://wa.me/355684248959?text=Hello!%20I'd%20like%20some%20information."
+                href="https://wa.me/355684379620?text=Hello!%20I'd%20like%20some%20information."
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-3 px-8 py-4 rounded-xl glass text-foreground font-semibold hover:bg-secondary/80 active:scale-[0.97] transition-all duration-200"

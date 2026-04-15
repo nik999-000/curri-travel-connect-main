@@ -38,13 +38,13 @@ export default function Footer() {
             
             <div className="flex flex-col sm:flex-row items-center gap-4 sm:gap-8 text-sm text-muted-foreground">
               <div className="flex flex-col gap-1">
-                <a href="tel:+355684379620" className="flex items-center gap-2 hover:text-primary transition-colors">
-                  <Phone size={14} />
-                  +355 68 437 9620
-                </a>
                 <a href="tel:+355684248959" className="flex items-center gap-2 hover:text-primary transition-colors">
                   <Phone size={14} />
                   +355 68 424 8959
+                </a>
+                <a href="tel:+355684379620" className="flex items-center gap-2 hover:text-primary transition-colors">
+                  <Phone size={14} />
+                  +355 68 437 9620
                 </a>
               </div>
               <a href="mailto:andicurri00@gmail.com" className="flex items-center gap-2 hover:text-primary transition-colors">
