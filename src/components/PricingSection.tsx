@@ -77,7 +77,7 @@ export default function PricingSection() {
                 <p className="text-muted-foreground text-sm leading-relaxed mb-8 min-h-[48px]">{p.desc}</p>
                 <div className="flex flex-col gap-3">
                   <a
-                    href={`https://wa.me/355684379620?text=Hello!%20I'd%20like%20to%20book:%20${encodeURIComponent(p.title)}%20(${p.price})`}
+                    href={`https://wa.me/355684248959?text=Hello!%20I'd%20like%20to%20book:%20${encodeURIComponent(p.title)}%20(${p.price})`}
                     target="_blank"
                     rel="noopener noreferrer"
                     className={`flex items-center justify-center gap-2 w-full py-3.5 rounded-xl font-bold text-sm active:scale-[0.97] transition-all duration-300 ${
@@ -86,16 +86,7 @@ export default function PricingSection() {
                         : 'glass text-foreground'
                     }`}
                   >
-                    WA Nr.1
-                    <Play size={10} fill="currentColor" />
-                  </a>
-                  <a
-                    href={`https://wa.me/355684248959?text=Hello!%20I'd%20like%20to%20book:%20${encodeURIComponent(p.title)}%20(${p.price})`}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="flex items-center justify-center gap-2 w-full py-3.5 rounded-xl border border-white/5 glass text-foreground font-bold text-sm active:scale-[0.97] transition-all duration-300"
-                  >
-                    WA Nr.2
+                    Book on WhatsApp
                     <Play size={10} fill="currentColor" />
                   </a>
                 </div>

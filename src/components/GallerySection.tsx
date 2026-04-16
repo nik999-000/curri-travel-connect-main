@@ -93,6 +93,7 @@ export default function GallerySection() {
                 src={lightbox.src}
                 controls
                 autoPlay
+                muted
                 className="max-w-full max-h-[85vh] rounded-xl shadow-2xl"
                 onClick={(e) => e.stopPropagation()}
               />
